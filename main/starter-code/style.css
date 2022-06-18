@@ -51,9 +51,9 @@
     .content .phone{
         width: 250px;
         position: absolute;
-        z-index: 1;
-        top: 580px;
-        margin-left: 60px;
+        left: 50%;
+        top: 100%;
+        transform: translate(-50%, -50%);
     }
     .content .card{
         width: 100%;
@@ -63,7 +63,8 @@
         padding: 30px;
     }
     .bg-pattern-2, .card{
-        border-radius: 15px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
     }
     .card h1{
         font-family: 'IBM Plex Sans', sans-serif;
