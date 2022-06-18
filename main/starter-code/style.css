@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-@media screen and (min-width:320px) {
+@media screen and (min-width:375px) {
     .main-section nav{
         width: 100%;
         height: 100px;
@@ -35,8 +35,106 @@
     }
     .main-text-area h2{
         font-family: 'IBM Plex Sans', sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 28px;
+        font-size: 20px;
+        line-height: 34px;
+        color: #191826;
+        font-weight: 400;
+    }
+    .content .bg-pattern-2{
+        background-color: #191826;
+        position: absolute;
+        top: 680px;
+        z-index: 0;
+        width: 100%;
+        padding-left: 30px;
+    }
+    .content .phone{
+        width: 250px;
+        position: absolute;
+        z-index: 1;
+        top: 580px;
+        margin-left: 60px;
+    }
+    .content .card{
+        width: 100%;
+        background-color: #fa7453 ;
+        position: absolute;
+        top: 1130px;
+        padding: 30px;
+    }
+    .bg-pattern-2, .card{
+        border-radius: 15px;
+    }
+    .card h1{
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 40px;
+        position: absolute;
+        color: #fcfaf9;
+    }
+    .card .body-text-card{
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 16px;
+        position: absolute;
+        top: 100px;
+        line-height: 26px ;
+        width: 320px;
+        color: #fcfaf9;
+        
+    }
+    .card .cash{
+        display: flex;
+        margin-top: 220px;
+        align-items: center;
+    }
+    .card span{
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 40px;
+        padding-right: 10px;
+        color: #fcfaf9;
+        font-weight: 600;
+    }
+    .card .cash p{
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 16px;
+        color: #fcfaf9;
+    }
+    .btns button{
+        width: 100%;
+        height: 60px;
+        border: none;
+        border-radius: 15px;
+        background-color: #191826;
+        margin-top: 15px;
+        transition: 250ms;
+    }
+    .btns button:hover{
+        background-color: #ffb964;
+    }
+    .btns button div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btns button div p{
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 16px;
+        color: #fcfaf9;
+        font-weight: 600;
+        padding-left: 10px;
+    }
+    .btns .second{
+        background-color: #fcfaf9;
+    }
+    .btns .second:hover{
+        background-color: #66e2dc;
+    }
+    .btns .second div p{
+        color: #191826;
+    }
+    .tablet-bg{
+        display: none;
+    }
+    .tablet-pattern{
+        display: none;
     }
 }
